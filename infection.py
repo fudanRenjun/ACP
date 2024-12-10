@@ -17,13 +17,13 @@ st.title("ACP severity App")
 
 # 用户输入特征数据
 LYMPH_percent = st.number_input("LYMPH%:", min_value=0.0, max_value=100.0, value=25.3)
-RBC = st.number_input("RBC:", min_value=0.0, max_value=100.0, value=1.66)
-RDW_CV = st.number_input("RDW-CV:", min_value=0.0, max_value=100.0, value=23.6)
-HGB = st.number_input("HGB:", min_value=0.0, max_value=100.0, value=49.0)
-MONO_num = st.number_input("MONO#:", min_value=0.0, max_value=200.0, value=0.68)
-NEUT_num = st.number_input("NEUT#:", min_value=0.0, max_value=10.0, value=3.52)
-HCT = st.number_input("HCT:", min_value=0.0, max_value=100.0, value=15.8)
-WBC = st.number_input("WBC:", min_value=0.0, max_value=10.0, value=5.65)
+RBC = st.number_input("RBC(10^12/L):", min_value=0.0, max_value=100.0, value=1.66)
+RDW_CV = st.number_input("RDW-CV(%):", min_value=0.0, max_value=100.0, value=23.6)
+HGB = st.number_input("HGB(g/L):", min_value=0.0, max_value=100.0, value=49.0)
+MONO_num = st.number_input("MONO#(10^9/L):", min_value=0.0, max_value=200.0, value=0.68)
+NEUT_num = st.number_input("NEUT#(10^9/L):", min_value=0.0, max_value=10.0, value=3.52)
+HCT = st.number_input("HCT(%):", min_value=0.0, max_value=100.0, value=15.8)
+WBC = st.number_input("WBC(10^9/L):", min_value=0.0, max_value=10.0, value=5.65)
 NEUT_percent = st.number_input("NEUT%:", min_value=0.0, max_value=100.0, value=62.3)
 
 # 将输入的数据转化为模型的输入格式
