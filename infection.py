@@ -53,7 +53,7 @@ if st.button("Predict"):
     else:
         advice = (
             f"According to our model, you have a low risk of Mild ACP. "
-            f"The model predicts that your probability of not having Mild ACP is {probability:.1f}%. "
+            f"The model predicts that your probability of having Mild ACP is {probability:.1f}%. "
         )
 
     st.write(advice)
