@@ -22,7 +22,7 @@ RDW_CV = st.number_input("RDW-CV:", min_value=0.0, max_value=100.0, value=23.6)
 HGB = st.number_input("HGB:", min_value=0.0, max_value=100.0, value=49.0)
 MONO_num = st.number_input("MONO#:", min_value=0.0, max_value=200.0, value=0.68)
 NEUT_num = st.number_input("NEUT#:", min_value=0.0, max_value=10.0, value=3.52)
-HCT = st.number_input("HCT:", min_value=0.0, max_value=10.0, value=15.8)
+HCT = st.number_input("HCT:", min_value=0.0, max_value=100.0, value=15.8)
 WBC = st.number_input("WBC:", min_value=0.0, max_value=10.0, value=5.65)
 NEUT_percent = st.number_input("NEUT%:", min_value=0.0, max_value=100.0, value=62.3)
 
